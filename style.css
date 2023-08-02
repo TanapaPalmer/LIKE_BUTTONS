@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #515894;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    height: 600px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/05/10/59/background-2819026_1280.jpg);
+}
+
+h1 {
+    font-size: 60px;
+    font-family: cursive;
+    text-shadow: 4px 4px 4px #ffffff;
+}
+
+
+.like_button {
+    color: #3b3232;
+    padding: 5px 10px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    background: rgb(159, 170, 221);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    box-shadow: 2px 2px 2px 1px #000000;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.dislike_button {
+    color: #3b3232;
+    padding: 5px 10px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    background: rgb(221, 159, 188);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    box-shadow: 2px 2px 2px 1px #000000;
+    font-size: 20px;
+}
+
+.text_result #result{
+    font-size: 25px;
+    color: #d04787;
+    font-family: monospace;
+}
+
+img {
+    height:400px;
+    border-radius: 20px;
+}
+
+.like_card {
+    width: 400px;
+    height: 180px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+}

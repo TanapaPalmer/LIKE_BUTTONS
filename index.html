@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <title>Likes</title>
+</head>
+
+<body>
+    <div class="like_puppy">
+        <h1>Do you like me?</h1>
+        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/08/Download-Free-Funny-Dog-Wallpaper.jpg"
+            alt="funny_puppy">
+    </div>            
+        <div class="like_card">            
+            <h3><span id="likes">0</span> Like(s)</h3>
+            <button onclick="addmorelikes(this)" class="like_button"><i class="fas fa-thumbs-up"></i> Like</button>
+            <button onclick="handleDecreaseButtonClick(this)" class="dislike_button"><i class="fas fa-thumbs-down"></i>
+                Dislike</button>
+            <div class="text_result">
+                <p id="result"></p>
+            </div>
+        </div>
+</body>
+
+</html>
