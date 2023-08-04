@@ -6,7 +6,7 @@
     <img src="https://github.com/TanapaPalmer/LIKE_BUTTONS/assets/119079803/7b25dc73-8876-4ebd-af46-5fde0c815096" height="250"/>
   </div>
   <br>
-  <p>"I'm building these playful like and dislike buttons using JS, HTML, and CSS."</p>
+  <p>I'm building these playful like and dislike buttons using JS, HTML, and CSS.</p>
 
   <hr>
 
